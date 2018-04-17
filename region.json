@@ -5,31 +5,27 @@
     "titleMain": { "text": "La Resiliencia Costera", "url": "http://coastalresilience.org/" },
     "titleDetail": { "text": "República Dominicana", "url": "http://coastalresilience.org/project/dominican-republic/" },
     "headerLinks": [
-        { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
-		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
-        { "text": "GO TO", "url": "#", "items": [
-                { "text": "California", "url": "http://maps.coastalresilience.org/california/" },
-                { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
-                { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
-                { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
-                { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
-                { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
-                { "text": "New York", "url": "http://maps.coastalresilience.org/newyork" },
-                { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
-                { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
-                { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
-                { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
-            ]
-        },
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Datos legales", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+        { "text": "Datos legales", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],
+    "regionLinks": [
+        { "text": "California", "url": "http://maps.coastalresilience.org/california" },
+        { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+        { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+        { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
+        { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+        { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+        { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+        { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+        { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+        { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+        { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        -65.62,
-        17.443,
-        -63.984,
-        18.634
+        -72.230444042,
+        17.310720084,
+        -67.855421242,
+        20.040474747
     ],
     "basemaps": [
          { "name": "Topográfica"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
@@ -42,6 +38,7 @@
         { "name": "Terreno"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
+        "launchpad",
         "regional-planning",
 		"zoom_to",
         "measure",
