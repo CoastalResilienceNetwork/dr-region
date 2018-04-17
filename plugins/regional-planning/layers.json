@@ -1,42 +1,35 @@
 [
     {
-        "displayName": "Ecosystem Services",
+        "displayName": "República Dominicana",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/US_Virgin_Islands/",
-            "name": "USVI"
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Dominican_Republic",
+            "name": "Natural_Coastal_Protection"
         },
         "includeLayers": [
 			{
-				"name" : "Coastal Vulnerability",
+				"name" : "Socio-económico",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Coastal Protection",
+				"name" : "Infraestructura",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Recreation and Tourism",
+				"name" : "Hábitat marino",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Habitats",
+				"name" : "Político",
 				"includeAllLayers" : true
-			}
-		]
-	},
-	{
-        "displayName": "Flood and Sea Level Rise",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services//US_Virgin_Islands/",
-            "name": "USVI"
-        },
-        "includeLayers": [
+			},
 			{
-				"name" : "Sea Level Rise Vulnerability",
+				"name" : "Agua dulce",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Uso y cobertura",
 				"includeAllLayers" : true
 			}
 		]
