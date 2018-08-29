@@ -9,27 +9,15 @@
         },
         "includeLayers": [
 			{
-				"name" : "Socio-económico",
+				"name" : "Ecológico",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Infraestructura",
+				"name" : "Modelos",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Hábitat marino",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Político",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Agua dulce",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Uso y cobertura",
+				"name" : "Politico",
 				"includeAllLayers" : true
 			}
 		]
