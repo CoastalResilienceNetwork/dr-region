@@ -49,7 +49,7 @@
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "República Dominicana",
-            "description": "La Resiliencia Costera es una herramienta para la toma de decisiones que provee a planificadores locales, provinciales y nacionales un proceso en etapas para guiar decisiones que reducen los riesgos ecológicos y socio-económicos de daños costeros.",
+            "description": "La Resiliencia Costera es una herramienta para la toma de decisiones que provee a planificadores locales, provinciales y nacionales un proceso en etapas para guiar decisiones que reducen los riesgos ecológicos y socio-económicos de daños costeros. Este portal contiene capas ecológicas, modelos de aumento de nivel del mar y vulnerabilidad costera e indicadores de vulnerabilidad socioeconómica y ambiental para guiar la preparación para desastres y la planificación costera.  Para obtener más información, visite: <a href= 'https://coastalresilience.org/project/republica-dominicana/' target='_blank'><b>Republica Dominicana</b></a><br><br>Para obtener mejores resultados, se recomienda accede a este portal de datos utilizando Google Chrome.<br><br>Si está interesado en obtener información técnica sobre los modelos y los datos presentados en esta herramienta, obtenga más información <a href= 'https://media.coastalresilience.org/Resilient_Islands/Informaci%C3%B3nT%C3%A9cnica.pdf' target='_blank'><b>aquí</b></a>",
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Planificación Regional",
