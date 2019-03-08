@@ -5,7 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "https://services2.coastalresilience.org/arcgis/rest/services/Dominican_Republic",
-            "name": "Natural_Coastal_Protection"
+            "name": "Dominican_Republic"
         },
         "includeLayers": [
 			{
