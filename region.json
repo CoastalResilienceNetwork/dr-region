@@ -4,7 +4,7 @@
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
     "singlePluginMode": {
         "active": true,
-        "pluginFolderName": "natural-coastal-protection"
+        "pluginFolderName": "natural_coastal_protection"
     },
     "titleMain": { "text": "La Resiliencia Costera", "url": "https://coastalresilience.org/" },
     "titleDetail": { "text": "República Dominicana", "url": "https://coastalresilience.org/project/dominican-republic/" },
@@ -44,7 +44,7 @@
     ],
     "pluginOrder": [
         "launchpad",
-        "natural-coastal-protection",
+        "natural_coastal_protection",
 		"zoom_to",
         "measure",
         "legend_display",
@@ -65,7 +65,7 @@
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Natural Coastal Protection",
                     "description": "Explora las bases de datos regionales en la isla.",
-                    "pluginName": "natural-coastal-protection"
+                    "pluginName": "natural_coastal_protection"
                 }
             ],
             "partners": [
