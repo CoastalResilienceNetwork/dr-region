@@ -32,7 +32,7 @@
         20.040474747
     ],
     "basemaps": [
-        { "name": "OpenStreetMap"      , "url": "" }, 
+        { "name": "OpenStreetMap"      , "url": "" },
         { "name": "Imágenes"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" }
     ],
     "pluginOrder": [
