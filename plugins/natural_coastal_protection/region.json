@@ -152,19 +152,21 @@
   "hasAdmin": true,
   "hasNCP": true,
   "referenceLayers": {
-    "Arrecifes de Coral": 20,
-    "Costa Rocosa": 21,
-    "Dunas": 22,
-    "Estuarios": 23,
-    "Lagunas Costeras": 24,
-    "Manglares": 25,
-    "Playas": 26,
-    "Rios": 27,
-    "Humedales": 28,
-    "Cuencas": 29,
-    "Subcuencas": 30,
-    "Uso y Covertura 2012": 31,
-    "Areas protegidas declaradas": 32
+    "Reference Layers": {
+      "Arrecifes de Coral": 20,
+      "Costa Rocosa": 21,
+      "Dunas": 22,
+      "Estuarios": 23,
+      "Lagunas Costeras": 24,
+      "Manglares": 25,
+      "Playas": 26,
+      "Rios": 27,
+      "Humedales": 28,
+      "Cuencas": 29,
+      "Subcuencas": 30,
+      "Uso y Covertura 2012": 31,
+      "Areas protegidas declaradas": 32
+    }
   },
   "adminFields": [
       "ADMIN_NAME", 
