@@ -168,6 +168,8 @@
       "Areas protegidas declaradas": 32
     }
   },
+  "mangroveLayer": 25,
+  "coralLayer": 20,
   "adminFields": [
       "ADMIN_NAME", 
       "COUNTRY", 
