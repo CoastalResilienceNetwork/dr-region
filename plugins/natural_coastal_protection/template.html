@@ -928,6 +928,7 @@
               <button class="button button-default" id="cancel-admin-select"><i class="icon-cancel"></i><span class="i18n" data-i18n="Clear Selection">Clear Selection</span></button>
               <h2 class="admin-title"><span class="admin-name"><%= region %></span></h2>
               
+              <h3 class="i18n" style="display:none;" data-i18n="Census Statistics">Census Statistics</h3>
               <ol class="census-stats-instructions">
                 <li class="i18n" data-i18n="Click Statistic">Click an individual statistic to view it on the map. The statistic highlighted in blue is what is currently displayed.</li><br>
                 <li class="i18n" data-i18n="Click Unit">Click an administrative unit on the map to view statistics about only that unit.</li>
@@ -950,14 +951,14 @@
               <div class="stat percent-population-flood" data-layer="4">
                 <div class="number"><span class="variable"></span><span class="units">%</span></div>
                 <div class="description"> 
-                  <span class="description-text i18n" data-i18n="% of Admin Unit Population Within Flood Extent">% Population Within Flood Extent</span>
+                  <span class="description-text i18n" data-i18n="% Population Within Flood Extent">% Population Within Flood Extent</span>
                 </div>
               </div>
   
               <div class="stat percent-population-icv1" data-layer="5">
                 <div class="number"><span class="variable"></span><span class="units">%</span></div>
                 <div class="description">
-                  <span class="description-text i18n" data-i18n="Population in Poverty (ICV1)">Population in Poverty</span>
+                  <span class="description-text i18n" data-i18n="Population in Poverty (ICV1)">Population in Poverty (ICV1)</span>
                 </div>
               </div>
   
@@ -1011,48 +1012,39 @@
                   <span class="description-text i18n" data-i18n="Community Facilities Within Flood Extent">Community Facilities Within Flood Extent</span>
                 </div>
               </div>
-
+  
               <div class="stat house-density" data-layer="13">
-                <div class="number"><span class="variable"></span><span class="units">per mi<sup>2</sup></span></div>
+                <div class="number"><span class="variable"></span><span class="units">per km<sup>2</sup></span></div>
                 <div class="description"> 
                   <span class="description-text i18n" data-i18n="Housing Density">Housing Density</span>
                 </div>
               </div>
   
-              <% if (region == 'Grenada, St. Vincent and the Grenadines') { %>
-                <div class="stat climate-vulnerability" data-layer="14">
-                  <div class="number"><span class="variable"></span><span class="units"></span></div>
-                  <div class="description"> 
-                    <span class="description-text">Vulnerability Index</span>
-                  </div>
+              <div class="stat climate-vulnerability" data-layer="14">
+                <div class="number"><span class="variable"></span><span class="units">%</span></div>
+                <div class="description"> 
+                  <span class="description-text i18n" data-i18n="Households Vulnerable to Coastal Hazards">Households Vulnerable to Coastal Hazards</span>
                 </div>
-              <% } else { %>
-                <div class="stat climate-vulnerability" data-layer="14">
-                  <div class="number"><span class="variable"></span><span class="units">%</span></div>
-                  <div class="description"> 
-                    <span class="description-text i18n" data-i18n="Households Vulnerable to Coastal Hazards">Households Vulnerable to Coastal Hazards</span>
-                  </div>
-                </div>
-              <% } %>
+              </div>
   
               <h4 class="i18n" data-i18n="Natural Areas">Natural Areas</h4>
   
               <div class="stat reef-area" data-layer="15">
-                <div class="number"><span class="variable"></span><span class="units">ha</span></div>
+                <div class="number"><span class="variable"></span><span class="units">km<sup>2</sup></span></div>
                 <div class="description"> 
                   <span class="description-text i18n" data-i18n="Coral Reef Area">Coral Reef Area</span>
                 </div>
               </div>
   
               <div class="stat mangrove-area" data-layer="16">
-                <div class="number"><span class="variable"></span><span class="units">ha</span></div>
+                <div class="number"><span class="variable"></span><span class="units">km<sup>2</sup></span></div>
                 <div class="description"> 
                   <span class="description-text i18n" data-i18n="">Mangrove Area</span>
                 </div>
               </div>
   
               <div class="stat grass-area" data-layer="17">
-                <div class="number"><span class="variable"></span><span class="units">ha</span></div>
+                <div class="number"><span class="variable"></span><span class="units">km<sup>2</sup></span></div>
                 <div class="description"> 
                   <span class="description-text i18n" data-i18n="">Sea Grass Area</span>
                 </div>
