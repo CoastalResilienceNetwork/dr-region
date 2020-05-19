@@ -9,6 +9,16 @@ Para obtener mejores resultados, se recomienda accede a este portal de datos uti
 <h3 class="i18n" data-i18n="Partners">Socios</h3>
 <div class="partners">
     <ul style="list-style-type: none; padding: 0px;">
+	    
+	    <div style="text-align:center;">
+	<button class="button button-primary openApp">Empezar</button>
+</div>	
+
+<script>
+	$(".openApp").click(function(c){
+		$(c.currentTarget).parent().parent().parent().find(".button-link").trigger("click")
+	})
+</script>
     
 <li style="display: inline-block; padding: 4px;">
             <a href="https://www.bmu.de/en/" target="_blank">
@@ -35,12 +45,4 @@ Para obtener mejores resultados, se recomienda accede a este portal de datos uti
     
     </ul>
 </div>
-<div style="text-align:center;">
-	<button class="button button-primary openApp">Empezar</button>
-</div>	
 
-<script>
-	$(".openApp").click(function(c){
-		$(c.currentTarget).parent().parent().parent().find(".button-link").trigger("click")
-	})
-</script>
