@@ -1,7 +1,7 @@
 {
   "defaultRegion": "Dominican Republic",
   "serviceURL": "https://services2.coastalresilience.org/arcgis/rest/services/Dominican_Republic/Natural_Coastal_Protection/MapServer",
-  "adminTableIndex": 34,
+  "adminTableIndex": 42,
   "adminUnitsIndex": 1,
   "regions": {
     "Global" : {
@@ -164,8 +164,16 @@
       "Humedales": 28,
       "Cuencas": 29,
       "Subcuencas": 30,
-      "Uso y Cobertura 2012": 31,
-      "Areas protegidas declaradas": 32
+      "Uso y Covertura 2012": 31,
+      "Areas protegidas declaradas": 32,
+	  "Corrientes (acercar para ver)":33,
+      "Areas de Inundación":34,
+      "Areas de Inundación de 3m ANM":35,
+      "Areas de Inundación y 3m ANM":36,
+      "Censo 2010 - Barrios ICV (per ICV1)":37,
+      "Censo 2010 - Barrios ICV (per ICV2)":38,
+      "Censo 2010 - Barrios ICV (Hogares IC)":39,
+      "Censo 2010 - Barrios IVACC":40
     }
   },
   "mangroveLayer": 25,
